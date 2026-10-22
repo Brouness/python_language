@@ -22,4 +22,4 @@ for item in car:
     print(item.name)
 for item in car:
     print(item.value)
-    print(item.value)
+print(item)

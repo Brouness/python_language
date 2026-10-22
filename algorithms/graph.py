@@ -7,7 +7,7 @@ def add_edge(mat, i , j):
     mat[i][j] = 1
 
 if __name__ == "__main__":
-    vertices: int = 4
+    vertices: int = 10
     mat: list[list[int]] = [[0] * vertices for _ in range(vertices)]
     mat = [
         [0,1,1,0],
